@@ -1,0 +1,36 @@
+
+
+pushd artefacts
+
+
+hdiutil mount McRemote.sparsebundle
+
+ditto McRemote.xcarchive/Products/Applications/McRemote.app  /Volumes/McRemote/McRemote.app
+
+# vvv seem to need to manual eject the disk for the 'hdiutil convert' command to work
+#
+# hdiutil unmount /Volumes/RemoteGateway/
+#
+# ^^^ seem to need to manual eject the disk for the 'hdiutil convert' command to work
+
+
+hdiutil convert McRemote.sparsebundle -format UDBZ -o McRemote.dmg
+
+-------------------------------
+## Scratch Area
+
+
+# bless --folder /Volumes/RemoteGateway --openfolder /Volumes/RemoteGateway
+# 
+# /Developer/Tools/SetFile -a V /Volumes/RemoteGateway/disk-image.background.png
+# /Developer/Tools/SetFile -a V /Volumes/RemoteGateway/disk-image.background.guide.png
+# 
+# hdiutil convert -ov RemoteGateway.template.sparseimage  -format UDBZ -o RemoteGateway.template.dmg
+
+
+
+
+
+
+
+
