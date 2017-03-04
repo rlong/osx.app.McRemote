@@ -1,0 +1,14 @@
+
+
+on ping()
+end ping
+
+
+
+
+on get_current_date()
+	return current date
+end get_current_date
+
+
+-- get_current_date()

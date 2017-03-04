@@ -68,3 +68,10 @@ build/artefacts/
 
 
 # ^^^ osx.app.McRemote
+
+# OSX Desktop Services Store
+.DS_Store
+
+# emacs backup filenames
+*~
+
