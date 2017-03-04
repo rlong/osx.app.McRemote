@@ -166,6 +166,7 @@ NTJsonRequestHandler* _jsonRequestHandler;
     [self addAppleScriptServiceWithScriptName:@"clipboard" toServicesRegistery:servicesRegistery];
     [self addAppleScriptServiceWithScriptName:@"com.apple.DVDPlayer" toServicesRegistery:servicesRegistery];
     [self addAppleScriptServiceWithScriptName:@"finder" toServicesRegistery:servicesRegistery];
+    [self addAppleScriptServiceWithScriptName:@"spotify" toServicesRegistery:servicesRegistery];
     [self addAppleScriptServiceWithScriptName:@"system-test" toServicesRegistery:servicesRegistery];
 
     HLServicesRequestHandler* answer = [[HLServicesRequestHandler alloc] initWithServicesRegistery:servicesRegistery];

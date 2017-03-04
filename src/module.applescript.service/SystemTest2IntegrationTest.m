@@ -10,10 +10,10 @@
 
 #import "HLIntegrationTestUtilities.h"
 
-#import "RGSystemTest2IntegrationTest.h"
-#import "RGSystemTest2Proxy.h"
+#import "SystemTest2IntegrationTest.h"
+#import "SystemTest2Proxy.h"
 
-@implementation RGSystemTest2IntegrationTest
+@implementation SystemTest2IntegrationTest
 
 -(void)test1 {
     
@@ -28,7 +28,7 @@
     
     id<HLService> service = [[HLIntegrationTestUtilities getInstance] wrapService:appleScriptService];
     
-    RGSystemTest2Proxy* proxy = [[RGSystemTest2Proxy alloc] initWithService:service];
+    SystemTest2Proxy* proxy = [[SystemTest2Proxy alloc] initWithService:service];
 
     [proxy ping];
 
@@ -43,7 +43,7 @@
     
     id<HLService> service = [[HLIntegrationTestUtilities getInstance] wrapService:appleScriptService];
     
-    RGSystemTest2Proxy* proxy = [[RGSystemTest2Proxy alloc] initWithService:service];
+    SystemTest2Proxy* proxy = [[SystemTest2Proxy alloc] initWithService:service];
     
     NSNumber* timeSinceEpoc = [proxy get_current_date];
     STAssertNotNil( timeSinceEpoc, @"timeSinceEpoc = %p", timeSinceEpoc);
@@ -61,7 +61,7 @@
     
     id<HLService> service = [[HLIntegrationTestUtilities getInstance] wrapService:appleScriptService];
     
-    RGSystemTest2Proxy* proxy = [[RGSystemTest2Proxy alloc] initWithService:service];
+    SystemTest2Proxy* proxy = [[SystemTest2Proxy alloc] initWithService:service];
     
     NSNumber* numerator = [NSNumber numberWithInt:4];
     NSNumber* denominator = [NSNumber numberWithInt:2];

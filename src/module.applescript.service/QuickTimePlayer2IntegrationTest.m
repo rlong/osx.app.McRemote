@@ -12,10 +12,10 @@
 #import "HLIntegrationTestUtilities.h"
 #import "HLMetaProxy.h"
 
-#import "RGQuickTimePlayer2Proxy.h"
-#import "RGQuickTimePlayer2IntegrationTest.h"
+#import "QuickTimePlayer2Proxy.h"
+#import "QuickTimePlayer2IntegrationTest.h"
 
-@implementation RGQuickTimePlayer2IntegrationTest
+@implementation QuickTimePlayer2IntegrationTest
 
 -(void)test1 {
     
@@ -33,7 +33,7 @@
     
     id<HLService> service = [[HLIntegrationTestUtilities getInstance] wrapService:appleScriptService];
     
-    RGQuickTimePlayer2Proxy* proxy = [[RGQuickTimePlayer2Proxy alloc] initWithService:service];
+    QuickTimePlayer2Proxy* proxy = [[QuickTimePlayer2Proxy alloc] initWithService:service];
     
     [proxy activate_quicktime_player];
     
@@ -62,7 +62,7 @@
     
     id<HLService> service = [[HLIntegrationTestUtilities getInstance] wrapService:appleScriptService];
     
-    RGQuickTimePlayer2Proxy* proxy = [[RGQuickTimePlayer2Proxy alloc] initWithService:service];
+    QuickTimePlayer2Proxy* proxy = [[QuickTimePlayer2Proxy alloc] initWithService:service];
 
     HLJsonObject* mediaInfo = [proxy open_url:@"http://devimages.apple.com/iphone/samples/bipbop/gear1/prog_index.m3u8" media_url_identifier:@"prog_index.m3u8" time_out:5];
     

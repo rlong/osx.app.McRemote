@@ -5,7 +5,6 @@
 
 
 #import "AppleScript.h"
-#import "AppleScriptLoader.h"
 #import "MethodCallTransformer.h"
 #import "MethodResponseTransformer.h"
 

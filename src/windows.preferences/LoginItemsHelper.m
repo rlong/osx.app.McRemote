@@ -7,7 +7,6 @@
 
 #import "CALog.h"
 
-#import "AppleScriptLoader.h"
 #import "LoginItemsHelper.h"
 
 

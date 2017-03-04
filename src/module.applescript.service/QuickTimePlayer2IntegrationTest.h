@@ -5,9 +5,10 @@
 
 
 #import <Foundation/Foundation.h>
+#import <XCTest/XCTest.h>
 
-@interface RGAppleScriptServiceHelper : NSObject
-
-+(NSString*)serviceNameForScript:(NSString*)scriptName;
+@interface QuickTimePlayer2IntegrationTest : XCTestCase {
+    
+}
 
 @end

@@ -5,10 +5,10 @@
 
 
 #import <Foundation/Foundation.h>
+#import <XCTest/XCTest.h>
 
-@interface AppleScriptLoader : NSObject
-
-
-+(NSString*)loadScript:(NSString*)scriptName;
+@interface SystemTest2IntegrationTest : XCTestCase {
+    
+}
 
 @end

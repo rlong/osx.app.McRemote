@@ -11,7 +11,6 @@
 
 #import "HLServiceHelper.h"
 
-#import "RGAppleScriptServiceHelper.h"
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -57,8 +56,7 @@
         
         [answer setScriptName:scriptName];
         
-        NSString* serviceName = [RGAppleScriptServiceHelper serviceNameForScript:scriptName];
-        //NSString* serviceName = [NSString stringWithFormat:@"remote_gateway.AppleScriptService.%@", scriptName];
+        NSString* serviceName = [AppleScriptService serviceNameForScript:scriptName];
         Log_debugString(serviceName);
         
         answer->_serviceDescription = [[HLServiceDescription alloc] initWithServiceName:serviceName];
@@ -79,6 +77,17 @@
 }
 
 #pragma mark - 
+
+
++(NSString*)serviceNameForScript:(NSString*)scriptName {
+    
+    NSString* answer = [NSString stringWithFormat:@"remote_gateway.AppleScriptService:%@", scriptName];
+    Log_debugString(answer);
+    
+    return answer;    
+    
+}
+
 
 
 -(AppleScript*)getScript { 
