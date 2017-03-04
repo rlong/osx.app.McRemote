@@ -11,7 +11,7 @@
 #import "NetworkSetupChangeListener.h"
 #import "HttpServer.h"
 #import "ProcessHelper.h"
-#import "RGApplicationDelegate.h"
+#import "ApplicationDelegate.h"
 #import "Configuration.h"
 #import "ExecutionContext.h"
 
@@ -20,7 +20,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
-@interface RGApplicationDelegate () 
+@interface ApplicationDelegate () 
 
 //
 ////LogContainer* _logContainer;
@@ -48,7 +48,7 @@
 
 
 
-@implementation RGApplicationDelegate
+@implementation ApplicationDelegate
 
 
 
@@ -272,7 +272,7 @@
 - (id)init {
 
 
-	RGApplicationDelegate* answer = [super init];
+	ApplicationDelegate* answer = [super init];
 	
 	answer->_standardNotificationsActive = NO;
 	

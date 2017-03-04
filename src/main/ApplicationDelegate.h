@@ -11,7 +11,7 @@
 
 #import "HttpServer.h"
 
-@interface RGApplicationDelegate : NSObject <NSApplicationDelegate> {
+@interface ApplicationDelegate : NSObject <NSApplicationDelegate> {
 		
 //    RG2_ConnectionListener* _connectionListener;
 //    //@property (nonatomic, retain) ConnectionListener* connectionListener;
