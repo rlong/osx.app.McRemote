@@ -38,17 +38,9 @@ static Configuration* _configuration = nil;
 	NSMutableArray* registeredSubjects = [_configuration registeredSubjects];
 	[registeredSubjects removeAllObjects];
 	
-//	RG2_HTTPSecurityManager* httpSecurityManager = [self httpSecurityManager];
-//	
-//	NSEnumerator* subjectEnumerator = [[httpSecurityManager registeredSubjects] subjectEnumerator];
-//	for( RG2_Subject* subject in subjectEnumerator) {
-//		[registeredSubjects addObject:subject];
-//	}
-	
 	[ConfigurationManager saveConfiguration:_configuration];
 	
 }
-
 
 
 @end

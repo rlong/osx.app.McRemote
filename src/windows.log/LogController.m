@@ -5,6 +5,9 @@
 
 
 #import "CALog.h"
+#import "CALogConsumer.h"
+#import "CASimpleLogConsumer.h"
+
 
 #import "ApplicationContext.h"
 #import "LogController.h"
@@ -72,6 +75,7 @@
 	
     Log_enteredMethod();
     
+    [ApplicationContext getLogConsumer];
     NSArray* recentLogEntries = [[ApplicationContext getLogConsumer] getRecentLogEntries];
     
     if( nil == _logEntries ) { 

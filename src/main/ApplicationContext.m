@@ -11,10 +11,13 @@
 
 #import "CALog.h"
 #import "CADefaults.h"
+#import "CASimpleLogConsumer.h"
+
 
 #import "HLTestService.h"
 #import "HLServicesRegistery.h"
 
+#import "NTConfigurationSet.h"
 
 
 @implementation ApplicationContext
@@ -22,6 +25,7 @@
 static Configuration* _rg2Configuration = nil;
 static HttpServerContext* _remoteGatewayObjects = nil;
 static CASimpleLogConsumer* _logConsumer= nil;
+static NTConfigurationSet* _configurationSet = nil;
 
 
 
@@ -50,6 +54,12 @@ static bool BUILD_BLUETOOTH_SERVER;
     }
     
     
+}
+
+
++(NTConfiguration*)configurationWithName:(NSString*)name;
+{
+    return [_configurationSet getConfigurationWithName:name];
 }
 
 
@@ -94,6 +104,7 @@ static bool BUILD_BLUETOOTH_SERVER;
 
 
 
+
 +(void)setup {
     
     {
@@ -116,8 +127,10 @@ static bool BUILD_BLUETOOTH_SERVER;
         
     }
     
-    
+    _configurationSet = [[NTConfigurationSet alloc] init];
 }
+
+
 
 
 

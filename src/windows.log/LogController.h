@@ -12,10 +12,6 @@
 	//@property (nonatomic, retain) IBOutlet RGLogWindow* logWindow;
 	//@synthesize logWindow = _logWindow;
 	
-	
-//	LogContainer *_logContainer;
-//	//@property (nonatomic, retain) LogContainer* logContainer;
-//	//@synthesize logContainer = _logContainer;
     
     NSTimer* _refreshTimer;
     //@property (nonatomic, retain) NSTimer* refreshTimer;

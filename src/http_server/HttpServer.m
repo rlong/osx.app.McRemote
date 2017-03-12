@@ -6,6 +6,7 @@
 
 #import "AboutService.h"
 #import "AppleScriptService.h"
+#import "ApplicationContext.h"
 #import "HttpServer.h"
 
 #import "CAFileUtilities.h"
@@ -25,7 +26,9 @@
 #import "HLFileTransactionManager.h"
 #import "HLFileDownloadRequestHandler.h"
 
+#import "NTConfiguration.h"
 #import "NTJsonRequestHandler.h"
+
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -164,7 +167,7 @@ NTJsonRequestHandler* _jsonRequestHandler;
     }
     
     [self addAppleScriptServiceWithScriptName:@"clipboard" toServicesRegistery:servicesRegistery];
-    [self addAppleScriptServiceWithScriptName:@"com.apple.DVDPlayer" toServicesRegistery:servicesRegistery];
+    [self addAppleScriptServiceWithScriptName:@"dvd_player" toServicesRegistery:servicesRegistery];
     [self addAppleScriptServiceWithScriptName:@"finder" toServicesRegistery:servicesRegistery];
     [self addAppleScriptServiceWithScriptName:@"spotify" toServicesRegistery:servicesRegistery];
     [self addAppleScriptServiceWithScriptName:@"system-test" toServicesRegistery:servicesRegistery];
@@ -280,11 +283,19 @@ NTJsonRequestHandler* _jsonRequestHandler;
     
     Log_info( @"setting up security janitor ... " );
     [[_serverObjects httpSecurityJanitor] start];
-
-    NSInteger port = 8081;
+    
+    
+    NSInteger port;
+    {
+        NSInteger defaultPort = 1234;
 #ifdef DEBUG
-    port = 21318;
+        defaultPort = 21318;
 #endif
+        
+        NTConfiguration* config = [ApplicationContext configurationWithName:@"HttpServer"];
+        port = [config integerValueForKey:@"port" withDefaultValue:defaultPort];
+    }
+    
     
     HLWebServer* webserver = [[HLWebServer alloc] initWithPort:(int)port httpProcessor:_rootProcessor];
     [self setWebServer:webserver];

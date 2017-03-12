@@ -9,12 +9,16 @@
 #import "HttpServerContext.h"
 #import "Configuration.h"
 
-#import "CASimpleLogConsumer.h"
+@class CASimpleLogConsumer;
+
+@class NTConfiguration;
 
 
 @interface ApplicationContext : NSObject {
     
 }
+
++(NTConfiguration*)configurationWithName:(NSString*)name;
 
 +(CASimpleLogConsumer*)getLogConsumer;
 +(void)setLogConsumer:(CASimpleLogConsumer*)logConsumer;
