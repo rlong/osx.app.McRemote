@@ -1,0 +1,32 @@
+
+on ping()
+end ping
+
+
+(*
+######################################################### 
+######################################################### 
+*)
+
+on get_applications_version(app_ids)
+	
+	set answer to {}
+	repeat with app_id in app_ids
+		try
+			tell application id app_id
+				set answer to answer & version
+			end tell
+		on error
+			set answer to answer & "NA"
+		end try
+	end repeat
+	return answer
+end get_applications_version
+
+--get_applications_version({"com.microsoft.Powerpoint", "x.y.x", "com.apple.Finder"})
+
+
+(*
+######################################################### 
+######################################################### 
+*)
