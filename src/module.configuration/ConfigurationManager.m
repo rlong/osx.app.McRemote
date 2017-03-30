@@ -87,7 +87,6 @@
 	[answer setObject:registeredSubjects forKey:@"registered-subjects"];
 	
 
-
 	return answer;
 }
 
@@ -96,12 +95,11 @@
 
 +(NSString*)configurationRootKey {
 	
-	NSString* answer;
-    if( NO ) {
-        answer = [NSString stringWithFormat:@"%@.1", NSStringFromClass([Configuration class])];
-    } else {
-        answer = @"Configuration.1";
-    }
+	NSString* answer = @"Configuration.1";
+    
+#ifdef NEVER_EXECUTE
+    answer = [NSString stringWithFormat:@"%@.1", NSStringFromClass([Configuration class])];
+#endif
 
     Log_infoString( answer );
 	

@@ -240,7 +240,6 @@
             [preferencesController showWindow:self];
             
         }
-
     }
 	
 	

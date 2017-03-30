@@ -186,7 +186,9 @@
 		}
 		
 		BaseException* e = [[BaseException alloc] initWithOriginator:self line:__LINE__ faultMessage:technicalError];
-		
+
+#ifdef NEVER_EXECUTE
+        
 		if( NO ) {
 			
 			for( id key in errorInfo ) {
@@ -210,7 +212,8 @@
 			
 		}
 		
-		id appleScriptErrorNumber = [errorInfo objectForKey:NSAppleScriptErrorNumber];
+#endif
+        id appleScriptErrorNumber = [errorInfo objectForKey:NSAppleScriptErrorNumber];
 		if( nil != appleScriptErrorNumber && [appleScriptErrorNumber isKindOfClass:[NSNumber class]] ) {
 			NSNumber* code = (NSNumber*)appleScriptErrorNumber;
 			NSError* error = [NSError errorWithDomain:methodName code:[code intValue] userInfo:nil];

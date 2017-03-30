@@ -68,7 +68,8 @@
 		}
 	}	
 	
-	return;
+    
+#ifdef NEVER_EXECUTE
 	
 	{ // call with a string param
 		
@@ -112,6 +113,11 @@
 			
 		}
 	}
+    
+#endif 
+
+    return;
+
 }
 
 
