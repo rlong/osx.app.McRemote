@@ -250,10 +250,10 @@ NTJsonRequestHandler* _jsonRequestHandler;
     
     HLFileGetRequestHandler* fileRequestHandler;
     {
-        NSString* site = [[NSBundle mainBundle] pathForResource:@"browser.site.McRemote" ofType:nil];
+        NSString* site = [[NSBundle mainBundle] pathForResource:@"www" ofType:nil];
         
 #ifdef DEBUG
-        NSString* devSite = [@"~/Projects/osx.app.McRemote/Projects/browser.site.McRemote" stringByExpandingTildeInPath];
+        NSString* devSite = [@"~/Projects/osx.app.McRemote/Projects/browser.app.McRemote/www" stringByExpandingTildeInPath];
         if( [CAFileUtilities fileExistsAtPath:devSite] ) {
             site = devSite;
         }
