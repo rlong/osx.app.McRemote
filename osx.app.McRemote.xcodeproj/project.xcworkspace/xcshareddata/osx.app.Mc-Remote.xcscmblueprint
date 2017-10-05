@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D3322B8EB91632102BF96B10DE09D113A920AE4F" : 0,
+    "F9118F4532A9A714302E85F37B2E3B8A7C2BCFB1" : 0,
+    "815777B284B24C525B21BF48CE7443A78F3DA1DE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F5A5033A-3C9E-4956-9D33-60B3B72BA76F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D3322B8EB91632102BF96B10DE09D113A920AE4F" : "osx.app.Mc-Remote\/Projects\/osx.app.Mc-Remote\/osx.app.Mc-Remote\/Submodules\/cocoa.lib.CocoaAnnex\/",
+    "F9118F4532A9A714302E85F37B2E3B8A7C2BCFB1" : "osx.app.Mc-Remote\/Projects\/osx.app.Mc-Remote\/osx.app.Mc-Remote\/Submodules\/cocoa.lib.HttpLibrary\/",
+    "815777B284B24C525B21BF48CE7443A78F3DA1DE" : "osx.app.Mc-Remote\/Projects\/osx.app.Mc-Remote\/osx.app.Mc-Remote\/Submodules\/cocoa.lib.NodeTree\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "osx.app.Mc-Remote",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Projects\/osx.app.Mc-Remote\/osx.app.Mc-Remote\/osx.app.Mc-Remote.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/cocoa.lib.NodeTree.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "815777B284B24C525B21BF48CE7443A78F3DA1DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/cocoa.lib.CocoaAnnex.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3322B8EB91632102BF96B10DE09D113A920AE4F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/cocoa.lib.HttpLibrary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9118F4532A9A714302E85F37B2E3B8A7C2BCFB1"
+    }
+  ]
+}

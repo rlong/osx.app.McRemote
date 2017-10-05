@@ -1,0 +1,72 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A9571BF924906E25B69EC7A4D6EFF5C5B4F6788B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4D7ECBB1BE18CA48DCE2CF19443B6544BD8003C4" : 9223372036854775807,
+    "4E7C1C84EB262BC3ABF70DE9EDDAE9327659FD54" : 9223372036854775807,
+    "420B42F5C403BFCBB5A590A3F73782D4456F4808" : 9223372036854775807,
+    "F9118F4532A9A714302E85F37B2E3B8A7C2BCFB1" : 9223372036854775807,
+    "A9571BF924906E25B69EC7A4D6EFF5C5B4F6788B" : 9223372036854775807,
+    "B0E8724E319430CAFE61694E02AD2B20780B04C2" : 9223372036854775807,
+    "D3322B8EB91632102BF96B10DE09D113A920AE4F" : 9223372036854775807,
+    "815777B284B24C525B21BF48CE7443A78F3DA1DE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3288A3B0-8DC6-4D37-A0BD-9B1588CA70DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4D7ECBB1BE18CA48DCE2CF19443B6544BD8003C4" : "browser.site.McRemote\/github\/dinky_require\/",
+    "4E7C1C84EB262BC3ABF70DE9EDDAE9327659FD54" : "browser.site.McRemote\/github\/lib.json_broker\/",
+    "420B42F5C403BFCBB5A590A3F73782D4456F4808" : "browser.site.McRemote\/github\/angular1_nouislider\/",
+    "F9118F4532A9A714302E85F37B2E3B8A7C2BCFB1" : "osx.app.McRemote\/Submodules\/cocoa.lib.HttpLibrary\/",
+    "A9571BF924906E25B69EC7A4D6EFF5C5B4F6788B" : "osx.app.McRemote\/",
+    "B0E8724E319430CAFE61694E02AD2B20780B04C2" : "browser.site.McRemote\/",
+    "D3322B8EB91632102BF96B10DE09D113A920AE4F" : "osx.app.McRemote\/Submodules\/cocoa.lib.CocoaAnnex\/",
+    "815777B284B24C525B21BF48CE7443A78F3DA1DE" : "osx.app.McRemote\/Submodules\/cocoa.lib.NodeTree\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "osx.app.McRemote",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "osx.app.McRemote.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/browser.lib.angular1_nouislider.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "420B42F5C403BFCBB5A590A3F73782D4456F4808"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/javascript.lib.dinky_require",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4D7ECBB1BE18CA48DCE2CF19443B6544BD8003C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/typescript.lib.json_broker",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E7C1C84EB262BC3ABF70DE9EDDAE9327659FD54"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/cocoa.lib.NodeTree.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "815777B284B24C525B21BF48CE7443A78F3DA1DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/osx.app.McRemote",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A9571BF924906E25B69EC7A4D6EFF5C5B4F6788B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/browser.site.McRemote",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B0E8724E319430CAFE61694E02AD2B20780B04C2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/cocoa.lib.CocoaAnnex.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3322B8EB91632102BF96B10DE09D113A920AE4F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/cocoa.lib.HttpLibrary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9118F4532A9A714302E85F37B2E3B8A7C2BCFB1"
+    }
+  ]
+}
