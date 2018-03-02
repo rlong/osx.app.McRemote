@@ -84,7 +84,7 @@
     return nil;
 #endif
     
-    NSString* scriptModuleFolder = [@"~/Projects/osx.app.McRemote/Projects/browser.site.McRemote/module" stringByExpandingTildeInPath];
+    NSString* scriptModuleFolder = [@"~/Projects/osx.app.McRemote/Projects/osx.app.McRemote/res/module" stringByExpandingTildeInPath];
     NSString* scriptPath = [NSString stringWithFormat:@"%@/%@/%@.scpt", scriptModuleFolder, _scriptName, _scriptName];
     Log_debugString( scriptPath );
     
@@ -147,7 +147,9 @@
     // ^^^ for historical purposes
     
     
-    NSURL* scriptUrl = [[NSBundle mainBundle] URLForResource:_scriptName withExtension:@"scpt"];
+    NSString* resourcePath = [NSString stringWithFormat:@"module/%@/%@.scpt", _scriptName, _scriptName];
+
+    NSURL* scriptUrl = [[NSBundle mainBundle] URLForResource:resourcePath withExtension:nil];
     
     if( nil == scriptUrl ) {
         @throw exceptionWithFormat( @"nil == scriptUrl; _scriptName = '%@'", _scriptName );

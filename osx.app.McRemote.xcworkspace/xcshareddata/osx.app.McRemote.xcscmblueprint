@@ -4,6 +4,7 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BC35B045B0DAC75F05C97CF9F68BA5C7F9D6C7B6" : 9223372036854775807,
     "4D7ECBB1BE18CA48DCE2CF19443B6544BD8003C4" : 9223372036854775807,
     "4E7C1C84EB262BC3ABF70DE9EDDAE9327659FD54" : 9223372036854775807,
     "420B42F5C403BFCBB5A590A3F73782D4456F4808" : 9223372036854775807,
@@ -15,6 +16,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3288A3B0-8DC6-4D37-A0BD-9B1588CA70DA",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BC35B045B0DAC75F05C97CF9F68BA5C7F9D6C7B6" : "browser.app.McRemote\/",
     "4D7ECBB1BE18CA48DCE2CF19443B6544BD8003C4" : "browser.site.McRemote\/github\/dinky_require\/",
     "4E7C1C84EB262BC3ABF70DE9EDDAE9327659FD54" : "browser.site.McRemote\/github\/lib.json_broker\/",
     "420B42F5C403BFCBB5A590A3F73782D4456F4808" : "browser.site.McRemote\/github\/angular1_nouislider\/",
@@ -57,6 +59,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/browser.site.McRemote",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B0E8724E319430CAFE61694E02AD2B20780B04C2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/browser.app.McRemote.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC35B045B0DAC75F05C97CF9F68BA5C7F9D6C7B6"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlong\/cocoa.lib.CocoaAnnex.git",

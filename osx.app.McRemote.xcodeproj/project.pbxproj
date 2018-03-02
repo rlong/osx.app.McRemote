@@ -49,6 +49,7 @@
 		AEDDA7591CD33F0800E21142 /* NetworkSetupChangeListener.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDA7581CD33F0800E21142 /* NetworkSetupChangeListener.m */; };
 		AEDDA75C1CD33FBC00E21142 /* BonjourBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDA75B1CD33FBC00E21142 /* BonjourBroadcaster.m */; };
 		AEF96C9C1724E8A5006DEE9F /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9659FA17238E02004C3CAA /* IOBluetooth.framework */; };
+		DE64CF442049E43B00D4FE90 /* module in Resources */ = {isa = PBXBuildFile; fileRef = DE64CF432049E43B00D4FE90 /* module */; };
 		E731A6191F86697000D242EB /* www in Resources */ = {isa = PBXBuildFile; fileRef = E731A6181F86697000D242EB /* www */; };
 		E74EB0CE1D4819CA00E3DD8A /* CAClassHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E74EB0091D4819CA00E3DD8A /* CAClassHelper.m */; };
 		E74EB0CF1D4819CA00E3DD8A /* CADataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E74EB00B1D4819CA00E3DD8A /* CADataHelper.m */; };
@@ -229,7 +230,6 @@
 		E788E8491D432D1E005E4B38 /* HLMultiPartReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E788E79D1D432C77005E4B38 /* HLMultiPartReader.m */; };
 		E788E84A1D432D26005E4B38 /* HLUriUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E788E7671D432C77005E4B38 /* HLUriUtilities.m */; };
 		E788E84B1D432D2E005E4B38 /* HLWwwAuthenticate.m in Sources */ = {isa = PBXBuildFile; fileRef = E788E6EE1D432C77005E4B38 /* HLWwwAuthenticate.m */; };
-		E78BD0FD1E755BEC00C4AD54 /* browser.site.McRemote in Resources */ = {isa = PBXBuildFile; fileRef = E78BD0FC1E755BEC00C4AD54 /* browser.site.McRemote */; };
 		E7A0BB041E6A9ABF0027B43D /* AboutService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0BB031E6A9ABF0027B43D /* AboutService.m */; };
 		E7A0BB1D1E6A9B590027B43D /* AppleScript.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0BB071E6A9B590027B43D /* AppleScript.m */; };
 		E7A0BB211E6A9B590027B43D /* AppleScriptUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0BB0E1E6A9B590027B43D /* AppleScriptUtilities.m */; };
@@ -373,6 +373,8 @@
 		BF38F25A3812033A168F7243 /* libPods-osx.app.McRemote.integration_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.app.McRemote.integration_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2F69D9DAF551A5B7D4FE01 /* Pods-osx.app.McRemote.integration_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.app.McRemote.integration_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-osx.app.McRemote.integration_test/Pods-osx.app.McRemote.integration_test.debug.xcconfig"; sourceTree = "<group>"; };
 		D3E1BEE8B60D4AFDA76FA200 /* Pods-McRemote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McRemote.release.xcconfig"; path = "Pods/Target Support Files/Pods-McRemote/Pods-McRemote.release.xcconfig"; sourceTree = "<group>"; };
+		DE64CF412049CA9A00D4FE90 /* CAJsonArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAJsonArray.h; sourceTree = "<group>"; };
+		DE64CF432049E43B00D4FE90 /* module */ = {isa = PBXFileReference; lastKnownFileType = folder; path = module; sourceTree = "<group>"; };
 		E731A6181F86697000D242EB /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../browser.app.McRemote/Project/www; sourceTree = "<group>"; };
 		E74EB0081D4819CA00E3DD8A /* CAClassHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAClassHelper.h; sourceTree = "<group>"; };
 		E74EB0091D4819CA00E3DD8A /* CAClassHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAClassHelper.m; sourceTree = "<group>"; };
@@ -430,7 +432,6 @@
 		E74EB0401D4819CA00E3DD8A /* CAStreamHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAStreamHelper.m; sourceTree = "<group>"; };
 		E74EB0421D4819CA00E3DD8A /* CADefaultJsonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADefaultJsonHandler.h; sourceTree = "<group>"; };
 		E74EB0431D4819CA00E3DD8A /* CADefaultJsonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADefaultJsonHandler.m; sourceTree = "<group>"; };
-		E74EB0441D4819CA00E3DD8A /* CAJsonArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAJsonArray.h; sourceTree = "<group>"; };
 		E74EB0451D4819CA00E3DD8A /* CAJsonArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAJsonArray.m; sourceTree = "<group>"; };
 		E74EB0461D4819CA00E3DD8A /* CAJsonArrayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAJsonArrayHelper.h; sourceTree = "<group>"; };
 		E74EB0471D4819CA00E3DD8A /* CAJsonArrayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAJsonArrayHelper.m; sourceTree = "<group>"; };
@@ -808,7 +809,6 @@
 		E788E7D21D432C77005E4B38 /* HLEchoConnectRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLEchoConnectRequestHandler.m; sourceTree = "<group>"; };
 		E788E7D31D432C77005E4B38 /* HLEchoWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLEchoWebSocket.h; sourceTree = "<group>"; };
 		E788E7D41D432C77005E4B38 /* HLEchoWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLEchoWebSocket.m; sourceTree = "<group>"; };
-		E78BD0FC1E755BEC00C4AD54 /* browser.site.McRemote */ = {isa = PBXFileReference; lastKnownFileType = folder; name = browser.site.McRemote; path = ../../browser.site.McRemote; sourceTree = "<group>"; };
 		E7A0BB021E6A9ABF0027B43D /* AboutService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutService.h; sourceTree = "<group>"; };
 		E7A0BB031E6A9ABF0027B43D /* AboutService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutService.m; sourceTree = "<group>"; };
 		E7A0BB061E6A9B590027B43D /* AppleScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleScript.h; sourceTree = "<group>"; };
@@ -1216,8 +1216,8 @@
 		AEEAC6B915B4362B00FB9F17 /* res */ = {
 			isa = PBXGroup;
 			children = (
+				DE64CF432049E43B00D4FE90 /* module */,
 				E731A6181F86697000D242EB /* www */,
-				E78BD0FC1E755BEC00C4AD54 /* browser.site.McRemote */,
 				AEE8E3591CD34D2C000991A4 /* applescript */,
 				AEE8E36C1CD34D3D000991A4 /* python */,
 				AE18C8F11CA4FFDF00EBE6D0 /* Assets.xcassets */,
@@ -1438,7 +1438,7 @@
 			children = (
 				E74EB0421D4819CA00E3DD8A /* CADefaultJsonHandler.h */,
 				E74EB0431D4819CA00E3DD8A /* CADefaultJsonHandler.m */,
-				E74EB0441D4819CA00E3DD8A /* CAJsonArray.h */,
+				DE64CF412049CA9A00D4FE90 /* CAJsonArray.h */,
 				E74EB0451D4819CA00E3DD8A /* CAJsonArray.m */,
 				E74EB0461D4819CA00E3DD8A /* CAJsonArrayHelper.h */,
 				E74EB0471D4819CA00E3DD8A /* CAJsonArrayHelper.m */,
@@ -2402,6 +2402,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE64CF442049E43B00D4FE90 /* module in Resources */,
 				E7A0BB661E6A9E490027B43D /* Log.xib in Resources */,
 				E7A0BB611E6A9C8E0027B43D /* LoginItemsHelper.scpt in Resources */,
 				AEDDA72E1CD2B1E300E21142 /* application-icon.dark-gray.16x12.png in Resources */,
@@ -2413,7 +2414,6 @@
 				E731A6191F86697000D242EB /* www in Resources */,
 				AE18C8F21CA4FFDF00EBE6D0 /* Assets.xcassets in Resources */,
 				E7A0BB6A1E6AA27A0027B43D /* Application.xib in Resources */,
-				E78BD0FD1E755BEC00C4AD54 /* browser.site.McRemote in Resources */,
 				E7A0BB621E6A9C8E0027B43D /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
